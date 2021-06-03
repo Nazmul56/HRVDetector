@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Application/Application.iml" filepath="$PROJECT_DIR$/Application/Application.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HRV.iml" filepath="$PROJECT_DIR$/HRV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HRVDetector.iml" filepath="$PROJECT_DIR$/.idea/modules/HRVDetector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Application/HRVDetector.Application.iml" filepath="$PROJECT_DIR$/.idea/modules/Application/HRVDetector.Application.iml" />
     </modules>
   </component>
 </project>

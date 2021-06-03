@@ -2,9 +2,10 @@ package com.example.android.camera2basic;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class HistoryResultActivity extends AppCompatActivity {
     TextView dateTimeView;

@@ -1,9 +1,10 @@
 package com.example.android.camera2basic;
 
 import android.content.pm.ActivityInfo;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class InstructionActivity extends AppCompatActivity {
 

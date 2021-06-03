@@ -47,10 +47,6 @@ import android.media.ImageReader;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.DialogFragment;
-import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.util.Size;
 import android.util.SparseIntArray;
@@ -61,6 +57,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.Fragment;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -119,7 +120,7 @@ public class CameraFragment extends Fragment {
     private ViewGroup mTransitionsContainer;
     private ProgressBar progressBar;
 
-    public static CameraFragment newInstance() {
+    public static Fragment newInstance() {
         colorValues.clear();
         startTime = System.currentTimeMillis();
         return new CameraFragment();

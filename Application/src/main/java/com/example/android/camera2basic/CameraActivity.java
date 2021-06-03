@@ -18,7 +18,8 @@ package com.example.android.camera2basic;
 
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class CameraActivity extends AppCompatActivity {
 
