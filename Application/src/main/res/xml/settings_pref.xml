@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+<!--        <EditTextPreference
+            android:defaultValue="@string/default_gallery_storage"
+            android:key="@string/key_gallery_name"
+            android:summary="@string/default_gallery_storage"
+            android:title="@string/title_gallery_storage" />-->
+
+<!--        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_low_data_over_sim"
+            android:summary="@string/summary_upload_over_wifi"
+            android:title="@string/title_low_data_usages" />-->
+
+<!--        <ListPreference
+            android:defaultValue="3"
+            android:dialogTitle="@string/title_upload_quality"
+            android:entries="@array/pref_upload_quality_entries"
+            android:entryValues="@array/pref_upload_quality_values"
+            android:key="@string/key_upload_quality"
+            android:summary="@string/summary_upload_video_quality"
+            android:title="@string/title_upload_quality" />-->
+
+<!--        <Preference
+            android:key="@string/key_sip_account"
+            android:summary="@string/key_sip_summary"
+            android:title="@string/key_sip_title" />-->
+
+<!--        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/title_language"
+            android:entries="@array/pref_app_languages"
+            android:entryValues="@array/pref_app_languages_values"
+            android:key="@string/key_app_language"
+            android:summary="@string/summary_app_language"
+            android:title="@string/title_language" />-->
+
+<!--        <Preference
+            android:key="@string/title_clear_cache"
+            android:title="@string/title_clear_cache">
+
+        </Preference>-->
+
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Background Mode">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_sip"
+            android:title="Show a notification to keep the app live"
+
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Low Data Mode">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_low_data_mode"
+            android:title="Low data mode for low consumption of data"
+
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_title_notifications">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_notifications"
+            android:title="@string/title_notification" />
+
+        <RingtonePreference
+            android:defaultValue="content://settings/system/ringtone_sound"
+            android:dependency="@string/key_notifications"
+            android:key="@string/key_ringtone"
+            android:ringtoneType="ringtone"
+            android:summary="@string/summary_choose_ringtone"
+            android:title="@string/pref_title_ringtone" />
+
+<!--        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_vibrate"
+            android:summary="@string/summary_vibrate"
+            android:title="@string/title_vibrate" />-->
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_app_info">
+
+        <Preference
+            android:key="@string/key_send_feedback"
+            android:summary="@string/summary_support"
+            android:title="@string/title_send_feedback" />
+
+        <!-- preference opens url in browser -->
+        <Preference
+            android:key="@string/key_faq"
+            android:summary="@string/summary_faq"
+            android:title="@string/title_faq">
+
+        </Preference>
+
+        <Preference
+            android:key="@string/key_privacy"
+            android:title="@string/privacy_policy">
+        </Preference>
+
+        <Preference
+            android:key="@string/key_terms"
+            android:title="@string/title_terms">
+        </Preference>
+
+        <Preference
+            android:key="@string/app_version_key"
+            android:summary=""
+            android:title="@string/title_version" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

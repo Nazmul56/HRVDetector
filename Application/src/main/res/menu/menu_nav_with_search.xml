@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.durbinlabs.ducomm.activity.NavigationActivity">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+  <!--  <item
+
+        android:id="@+id/action_profile"
+        android:icon="@drawable/user"
+        android:orderInCategory="100"
+        android:title="@string/my_profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sign_out"
+        android:icon="@drawable/ic_sign_out"
+        android:orderInCategory="100"
+        android:title="@string/sign_out"
+        app:showAsAction="never" />-->
+</menu>

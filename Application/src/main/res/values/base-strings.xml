@@ -16,5 +16,5 @@
 -->
 
 <resources>
-    <string name="app_name">HRV Detector</string>
+    <string name="app_name">Heart Rate Monitor</string>
 </resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingBottom="@dimen/row_padding"
+    android:paddingLeft="@dimen/activity_margin"
+    android:paddingRight="@dimen/activity_margin"
+    android:paddingTop="@dimen/row_padding">
+
+    <TextView
+        android:id="@+id/tv_bg_test_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="12-Apr-21"
+        android:textColor="@color/contact_name"
+        android:textSize="@dimen/contact_name" />
+
+
+    <TextView
+        android:id="@+id/tv_bg_test_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_bg_test_level"
+        android:textColor="@color/contact_number"
+        android:text="12:30 pm"
+        android:textSize="@dimen/bg_test_unit" />
+
+    <TextView
+        android:id="@+id/tv_bg_test_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="20"
+        android:textColor="@color/contact_number"
+        android:textStyle="bold|italic"
+        android:textSize="@dimen/bg_test_level" />
+
+    <TextView
+        android:id="@+id/tv_bg_test_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/tv_bg_test_level"
+        android:text="mmole/dL"
+        android:textColor="@color/contact_number"
+        android:textSize="@dimen/bg_test_unit" />
+
+    <TextView
+        android:id="@+id/tv_bg_test_when_measured"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_bg_test_level"
+        android:layout_toStartOf="@id/tv_bg_test_level"
+        android:layout_toEndOf="@id/tv_bg_test_date"
+        android:gravity="center"
+        android:text="Before Bed"
+        android:textSize="@dimen/bg_test_unit"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.camera2basic" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.CAMERA" />
+9-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:5:5-65
+9-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:5:22-62
+10    <uses-permission android:name="android.permission.FLASHLIGHT" />
+10-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:6:5-69
+10-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:6:22-66
+11
+12    <uses-feature android:name="android.hardware.camera" />
+12-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:8:5-60
+12-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:8:19-57
+13    <uses-feature android:name="android.hardware.camera.autofocus" />
+13-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:9:5-70
+13-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:9:19-67
+14    <uses-feature android:name="android.hardware.camera.flash" />
+14-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:10:5-66
+14-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:10:19-63
+15
+16    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+17    <application
+17-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:13:5-51:19
+18        android:allowBackup="true"
+18-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:14:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.3.2] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/931f5f78a28e4cd54a304e9052a1af90/core-1.3.2/AndroidManifest.xml:24:18-86
+20        android:icon="@drawable/ic_launcher"
+20-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:15:9-45
+21        android:label="@string/app_name"
+21-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:16:9-41
+22        android:theme="@style/MaterialTheme" >
+22-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:17:9-45
+23        <activity
+23-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:18:9-26:20
+24            android:name="com.example.android.camera2basic.MainActivity"
+24-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:19:13-41
+25            android:label="@string/app_name" >
+25-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:20:13-45
+26
+27            <!--
+28                <intent-filter>
+29                <action android:name="android.intent.action.MAIN" />
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+32            </intent-filter>
+33            -->
+34        </activity>
+35        <activity android:name="com.example.android.camera2basic.CameraActivity" />
+35-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:27:9-52
+35-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:27:19-49
+36        <activity android:name="com.example.android.camera2basic.ResultsActivity" />
+36-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:28:9-53
+36-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:28:19-50
+37        <activity android:name="com.example.android.camera2basic.InstructionActivity" />
+37-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:29:9-57
+37-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:29:19-54
+38        <activity android:name="com.example.android.camera2basic.HistoryActivity" />
+38-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:30:9-53
+38-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:30:19-50
+39        <activity android:name="com.example.android.camera2basic.HistoryResultActivity" />
+39-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:31:9-68
+39-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:31:19-56
+40        <activity
+40-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:33:9-42:20
+41            android:name="com.example.android.ui.activity.NavigationActivity"
+41-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:34:13-78
+42            android:label="@string/app_name"
+42-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:35:13-45
+43            android:theme="@style/AppTheme.NoActionBar" >
+43-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:36:13-56
+44            <intent-filter>
+44-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:37:13-41:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:38:17-69
+45-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:38:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:40:17-77
+47-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:40:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:44:9-48:15
+51            android:name="com.example.android.ui.activity.SettingsActivity"
+51-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:45:13-76
+52            android:label="@string/title_activity_settings"
+52-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:46:13-60
+53            android:theme="@style/AppTheme.ActionBarThemeSettings" />
+53-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:47:13-67
+54        <activity android:name="com.example.android.ui.activity.AboutActivity" />
+54-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:50:9-82
+54-->/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:50:19-79
+55
+56        <provider
+56-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/ce3697919701d9050a6f363e4671cc0c/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+57            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/ce3697919701d9050a6f363e4671cc0c/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+58            android:authorities="com.example.android.camera2basic.lifecycle-process"
+58-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/ce3697919701d9050a6f363e4671cc0c/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+59            android:exported="false"
+59-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/ce3697919701d9050a6f363e4671cc0c/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+60            android:multiprocess="true" />
+60-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/ce3697919701d9050a6f363e4671cc0c/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+61
+62        <service
+62-->[androidx.room:room-runtime:2.2.6] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/386d176875d29792dbe0e5c22861ff7c/room-runtime-2.2.6/AndroidManifest.xml:25:9-28:40
+63            android:name="androidx.room.MultiInstanceInvalidationService"
+63-->[androidx.room:room-runtime:2.2.6] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/386d176875d29792dbe0e5c22861ff7c/room-runtime-2.2.6/AndroidManifest.xml:26:13-74
+64            android:directBootAware="true"
+64-->[androidx.room:room-runtime:2.2.6] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/386d176875d29792dbe0e5c22861ff7c/room-runtime-2.2.6/AndroidManifest.xml:27:13-43
+65            android:exported="false" />
+65-->[androidx.room:room-runtime:2.2.6] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/386d176875d29792dbe0e5c22861ff7c/room-runtime-2.2.6/AndroidManifest.xml:28:13-37
+66    </application>
+67
+68</manifest>

@@ -1,0 +1,72 @@
+com/example/android/camera2basic/InstructionActivity.java
+ com.example.android.camera2basic.InstructionActivity
+com/example/android/camera2basic/SectionsPageAdapter.java
+ com.example.android.camera2basic.SectionsPageAdapter
+com/example/android/camera2basic/HeartRateFragment.java
+ com.example.android.camera2basic.HeartRateFragment
+com/example/android/utils/EndlessRecyclerOnScrollListener.java
+ com.example.android.utils.EndlessRecyclerOnScrollListener
+com/example/android/camera2basic/SignalProcessing.java
+ com.example.android.camera2basic.SignalProcessing
+com/example/android/camera2basic/ImageProcessing.java
+ com.example.android.camera2basic.ImageProcessing
+com/example/android/db/DatabaseManager.java
+ com.example.android.db.DatabaseManager
+com/example/android/camera2basic/BuildConfig.java
+ com.example.android.camera2basic.BuildConfig
+com/example/android/ui/activity/AppCompatPreferenceActivity.java
+ com.example.android.ui.activity.AppCompatPreferenceActivity
+com/example/android/camera2basic/HRVFragment.java
+ com.example.android.camera2basic.HRVFragment
+ com.example.android.camera2basic.HRVFragment$1
+ com.example.android.camera2basic.HRVFragment$2
+ com.example.android.camera2basic.HRVFragment$3
+ com.example.android.camera2basic.HRVFragment$4
+com/example/android/camera2basic/HistoryResultActivity.java
+ com.example.android.camera2basic.HistoryResultActivity
+com/example/android/utils/ScrollAwareFABBehavior.java
+ com.example.android.utils.ScrollAwareFABBehavior
+ com.example.android.utils.ScrollAwareFABBehavior$1
+ com.example.android.utils.ScrollAwareFABBehavior$2
+com/example/android/camera2basic/DataBindingTriggerClass.java
+ com.example.android.camera2basic.DataBindingTriggerClass
+com/example/android/ui/viewmodel/NavigationViewModel.java
+ com.example.android.ui.viewmodel.NavigationViewModel
+com/example/android/camera2basic/HanningWindow.java
+ com.example.android.camera2basic.HanningWindow
+com/example/android/camera2basic/CameraFragment.java
+ com.example.android.camera2basic.CameraFragment
+ com.example.android.camera2basic.CameraFragment$1
+ com.example.android.camera2basic.CameraFragment$2
+ com.example.android.camera2basic.CameraFragment$3
+ com.example.android.camera2basic.CameraFragment$4
+ com.example.android.camera2basic.CameraFragment$5
+ com.example.android.camera2basic.CameraFragment$6
+ com.example.android.camera2basic.CameraFragment$7
+ com.example.android.camera2basic.CameraFragment$CompareSizesByArea
+ com.example.android.camera2basic.CameraFragment$ConfirmationDialog
+ com.example.android.camera2basic.CameraFragment$ConfirmationDialog$1
+ com.example.android.camera2basic.CameraFragment$ConfirmationDialog$2
+ com.example.android.camera2basic.CameraFragment$ErrorDialog
+ com.example.android.camera2basic.CameraFragment$ErrorDialog$1
+ com.example.android.camera2basic.CameraFragment$GetHeartRate
+ com.example.android.camera2basic.CameraFragment$ImageSaver
+com/example/android/camera2basic/AutoFitTextureView.java
+ com.example.android.camera2basic.AutoFitTextureView
+com/example/android/db/AppDatabase.java
+ com.example.android.db.AppDatabase
+com/example/android/camera2basic/HeartData.java
+ com.example.android.camera2basic.HeartData
+com/example/android/camera2basic/MainActivity.java
+ com.example.android.camera2basic.MainActivity
+com/example/android/db/BgTestDataDao.java
+ com.example.android.db.BgTestDataDao
+com/example/android/camera2basic/ResultsActivity.java
+ com.example.android.camera2basic.ResultsActivity
+com/example/android/camera2basic/MyDBHandler.java
+ com.example.android.camera2basic.MyDBHandler
+com/example/android/camera2basic/HistoryActivity.java
+ com.example.android.camera2basic.HistoryActivity
+ com.example.android.camera2basic.HistoryActivity$1
+com/example/android/camera2basic/CameraActivity.java
+ com.example.android.camera2basic.CameraActivity

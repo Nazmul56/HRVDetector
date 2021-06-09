@@ -18,6 +18,13 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -26,4 +33,17 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AppTheme.ActionBarThemeSettings" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">true</item>
+        <!-- White arrow -->
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <!-- <item name="android:navigationBarColor" tools:targetApi="21">@color/colorPrimaryDark</item>-->
+        <!--<item name="android:background">@null</item>-->
+        <!--  Support library compatibility -->
+        <!--<item name="background">@null</item>-->
+    </style>
 </resources>

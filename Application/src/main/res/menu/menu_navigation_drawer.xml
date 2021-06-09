@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/grpTop"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_invite_friend"
+            android:icon="@drawable/ic_invite_friend_24"
+            android:title="@string/invite_friends" />
+
+        <item
+            android:id="@+id/nav_minutes"
+            android:icon="@drawable/ic_data_backup_24"
+            android:title="@string/data_backup" />
+
+        <item
+            android:id="@+id/nav_pro_version"
+            android:icon="@drawable/ic_data_backup_24"
+            android:title="@string/pro_version" />
+
+        <item
+            android:id="@+id/nav_privacy_policy"
+            android:icon="@drawable/ic_privacy_24"
+            android:title="@string/privacy_policy" />
+
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_faq_24"
+            android:title="@string/faq" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about_24"
+            android:title="@string/about" />
+    </group>
+
+    <group
+        android:id="@+id/grpBottom"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_24"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_signout_24"
+            android:title="@string/sign_out" />
+    </group>
+
+</menu>

@@ -148,7 +148,6 @@ public class CameraFragment extends Fragment {
         public void onSurfaceTextureUpdated(SurfaceTexture texture) {
 
         }
-
     };
 
     private final CameraDevice.StateCallback mStateCallback = new CameraDevice.StateCallback() {
