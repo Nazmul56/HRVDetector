@@ -2367,7 +2367,6 @@ int id grpTop 0x7f0900d4
 int id guideline 0x7f0900d5
 int id header_title 0x7f0900d6
 int id heart 0x7f0900d7
-int id heartAnim 0x7f0900d8
 int id heartRateButton 0x7f0900d9
 int id hideable 0x7f0900da
 int id historyButton 0x7f0900db
@@ -2662,6 +2661,7 @@ int id tv_bg_test_level 0x7f0901fb
 int id tv_bg_test_time 0x7f0901fc
 int id tv_bg_test_unit 0x7f0901fd
 int id tv_bg_test_when_measured 0x7f0901fe
+int id tv_bpm 0x7f09020f
 int id unchecked 0x7f0901ff
 int id uniform 0x7f090200
 int id unlabeled 0x7f090201

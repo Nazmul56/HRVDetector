@@ -47,6 +47,7 @@ import android.media.ImageReader;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
+import android.os.Looper;
 import android.util.Log;
 import android.util.Size;
 import android.util.SparseIntArray;
@@ -56,9 +57,11 @@ import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.UiThread;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
@@ -100,6 +103,7 @@ public class CameraFragment extends Fragment {
     private CameraCaptureSession mCaptureSession;
     private CameraDevice mCameraDevice;
     private Size mPreviewSize;
+    private static TextView bpmGlobal = null;
 
     private HandlerThread mBackgroundThread;
     private Handler mBackgroundHandler;
@@ -112,6 +116,7 @@ public class CameraFragment extends Fragment {
     private Semaphore mCameraOpenCloseLock = new Semaphore(1);
 
     private static ArrayList<Integer> colorValues = new ArrayList<>();
+    private static ArrayList<Integer> tempValue = new ArrayList<>();
     private boolean mFlashSupported;
 
     private static long startTime;
@@ -260,7 +265,6 @@ public class CameraFragment extends Fragment {
             switch (mState) {
                 case STATE_PREVIEW: {
 
-
                     break;
                 }
                 case STATE_WAITING_LOCK: {
@@ -356,13 +360,15 @@ public class CameraFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View inflatedView = inflater.inflate(R.layout.fragment_camera, container, false);
+        bpmGlobal = inflatedView.findViewById(R.id.tv_bpm);
+
 //        mTransitionsContainer = (ViewGroup) inflatedView.findViewById(R.id.transitions_container);
 //        progressBar = inflatedView.findViewById(R.id.progressBar);
 //        progressBar.setProgress(0);
 //        progressBar.setMax((int)MainActivity.RECORDING_TIME * 10);
 //        progressBar.setBackgroundColor(Color.WHITE);
 //        progressBar.getProgressDrawable().setColorFilter(Color.WHITE, android.graphics.PorterDuff.Mode.MULTIPLY);
-        return inflater.inflate(R.layout.fragment_camera, container, false);
+        return inflatedView;
 
     }
 
@@ -779,6 +785,37 @@ public class CameraFragment extends Fragment {
             colorValues.add(colorAverage);
             Log.d("Red", Double.toString(redAverage));
 
+            tempValue.add(colorAverage);
+            if(tempValue.size() < 30)
+                return;
+            else {
+                ArrayList<Double> hueValues = new ArrayList<Double>();
+
+                ArrayList<Integer> tempResult = new ArrayList<>();
+                for (int i : tempValue) {
+                    tempResult.add(i);
+                }
+
+                for (int i : tempResult) {
+                    float[] hsv = new float[3];
+                    Color.RGBToHSV(Color.red(i), Color.green(i), Color.blue(i), hsv);
+                    hueValues.add((double) hsv[0]);
+                }
+
+                hueValues = SignalProcessing.signalProcess(hueValues);
+
+                HeartData heartData = new HeartData(hueValues);
+                String bpStr = String.format("%.1f", heartData.getBPM());
+                Log.d("HeartRate: ", bpStr);
+                new Handler(Looper.getMainLooper()).post(new Runnable() {
+                    @Override
+                    public void run() {
+                        bpmGlobal.setText(bpStr);
+                    }
+                });
+
+                tempValue.clear();
+            }
 //            Log.e("AAA", Byte.toString(resultRGB[0]));
 //            final ByteBuffer buffer = ByteBuffer.wrap(resultRGB).order(ByteOrder.LITTLE_ENDIAN);
 //            final int[] ret = new int[resultRGB.length / 4];

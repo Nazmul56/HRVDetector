@@ -12,18 +12,28 @@
 
     <RelativeLayout
         style="@style/MaterialTheme"
-        android:background="#fbe3ef"
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="50dp"
         android:gravity="center"
         android:orientation="vertical">
 
-        <pl.droidsonroids.gif.GifImageView
+        <TextView
+            android:id="@+id/tv_bpm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView5"
+            android:text="69.0"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textColor="@color/red"
+            android:textSize="50sp"/>
+<!--        <pl.droidsonroids.gif.GifImageView
             android:id="@+id/heartAnim"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/heart_anim" />
+            android:layout_height="wrap_content"
+            android:src="@drawable/heart_anim" />-->
 
         <!--<ProgressBar-->
             <!--android:id="@+id/progressBar"-->
@@ -39,14 +49,6 @@
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/heartAnim"
-            android:layout_alignTop="@id/heartAnim"
-            android:layout_alignRight="@id/heartAnim"
-            android:layout_alignBottom="@id/heartAnim"
-            android:layout_marginLeft="1dp"
-            android:layout_marginTop="200dp"
-            android:layout_marginRight="1dp"
-            android:layout_marginBottom="1dp"
             android:gravity="center"
             android:text="Processing"
             android:textColor="@android:color/holo_red_light"

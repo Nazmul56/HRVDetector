@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: ./Application/libs/flanagan.jar">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/Application/libs/flanagan.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

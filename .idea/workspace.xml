@@ -54,395 +54,166 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be2306f2-16c6-4a9f-aa64-80851e6cef4a" name="Default" comment="Fix Buttersworth filter">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_ktx_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_3_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_4_2_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_4_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_4_2_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_4_2_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_4_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_2_4_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_2_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_3_5_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_ktx_2_3_5_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_3_5_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_ktx_2_3_5_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_3_5_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_ktx_2_3_5_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_3_5_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_ktx_2_3_5_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_2_6_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_PhilJay_MPAndroidChart_v3_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_android_extensions_runtime_1_3_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/build/generated/ap_generated_sources/debug/out/androidx/databinding/DataBinderMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/build/generated/ap_generated_sources/debug/out/androidx/databinding/DataBindingComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/build/generated/ap_generated_sources/debug/out/androidx/databinding/library/baseAdapters/BR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/build/generated/ap_generated_sources/debug/out/com/example/android/camera2basic/BR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/build/generated/ap_generated_sources/debug/out/com/example/android/camera2basic/DataBinderMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/build/generated/ap_generated_sources/debug/out/com/example/android/db/AppDatabase_Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/build/generated/ap_generated_sources/debug/out/com/example/android/db/BgTestDataDao_Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/App.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/db/AppDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/db/BgTestData.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/db/BgTestDataDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/db/DatabaseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/activity/AboutActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/activity/AppCompatPreferenceActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/activity/BaseActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/activity/NavigationActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/activity/SettingsActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/adapter/BgAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/fragment/bgTestGraph/GraphFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/fragment/bgTestGraph/GraphHelper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/fragment/bgTestGraph/GraphViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/fragment/bgTestHistory/BgTestHistoryFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/fragment/bgTestHistory/BgTestHistoryViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/fragment/main/PageViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/fragment/main/PlaceholderFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/fragment/main/SectionsPagerAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/fragment/reminder/ReminderFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/fragment/reminder/ReminderViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/fragment/share/ShareFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/fragment/share/ShareViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/fragment/slideshow/SlideshowFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/fragment/slideshow/SlideshowViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/fragment/tools/ToolsFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/fragment/tools/ToolsViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ui/viewmodel/NavigationViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/utils/C.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/utils/D.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/utils/EndlessRecyclerOnScrollListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/utils/Lg.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/utils/ScrollAwareFABBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/utils/U.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/anim/fab_in.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/anim/fab_out.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/anim/slide_in.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/anim/slide_in_from_right.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/anim/slide_out.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/anim/slide_out_to_right.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_account_circle_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_add_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_alarm_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_bookmark_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_calculator_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_error_outline_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_error_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_extension_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_info_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_info_outline_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_keyboard_arrow_left_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_keyboard_arrow_right_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_language_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_mode_edit_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_mode_edit_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_more_vert_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_notifications_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_opacity_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_photo_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_restaurant_menu_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_restaurant_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_restaurant_white_48dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_search_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_warning_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/ic_warning_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/sunset.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/circle_high.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/circle_hyper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/circle_hypo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/circle_low.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/circle_ok.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_account_circle_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_add_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_alarm_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_bookmark_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_calculator_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_error_outline_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_error_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_extension_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_info_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_info_outline_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_keyboard_arrow_left_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_keyboard_arrow_right_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_language_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_mode_edit_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_mode_edit_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_more_vert_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_notifications_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_opacity_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_photo_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_restaurant_menu_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_restaurant_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_restaurant_white_48dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_search_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_warning_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/ic_warning_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_account_circle_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_add_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_alarm_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_bookmark_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_calculator_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_error_outline_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_error_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_extension_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_info_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_info_outline_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_keyboard_arrow_left_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_keyboard_arrow_right_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_language_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_mode_edit_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_mode_edit_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_more_vert_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_notifications_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_opacity_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_photo_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_restaurant_menu_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_restaurant_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_restaurant_white_48dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_search_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_warning_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/ic_warning_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/account.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/help.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_account_circle_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_add_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_alarm_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_bookmark_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_calculator_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_error_outline_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_error_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_extension_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_info_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_info_outline_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_keyboard_arrow_left_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_keyboard_arrow_right_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_language_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_mode_edit_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_mode_edit_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_more_vert_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_notifications_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_opacity_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_photo_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_restaurant_menu_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_restaurant_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_restaurant_white_48dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_search_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_warning_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/ic_warning_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/loc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxhdpi/settings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_account_circle_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_add_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_alarm_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_bookmark_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_calculator_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_error_outline_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_error_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_extension_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_info_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_info_outline_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_keyboard_arrow_left_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_keyboard_arrow_right_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_language_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_mode_edit_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_mode_edit_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_more_vert_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_notifications_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_opacity_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_photo_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_restaurant_menu_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_restaurant_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_restaurant_white_48dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_search_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_warning_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable-xxxhdpi/ic_warning_white_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/app_help1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/app_help3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/circle_high.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/circle_hyper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/circle_hypo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/circle_low.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/circle_menu_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/circle_ok.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/drawer_header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_about_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_add_white.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_assignment_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_call_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_contacts_white_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_data_backup_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_dialpad_white_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_faq_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_group_add_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_group_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_history_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_invite_friend_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_login_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_message_white_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_mode_edit_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_person_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_privacy_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_search_white_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_settings_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_signout_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_timeline_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/line_border_bg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/online_bg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/online_sel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/online_uns.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/activity_about.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/activity_navigation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/activity_navigation_view.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/app_bar_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/bg_test_history_row_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/dialog_add.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/dropdown_menu_popup_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_gallery.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_graph.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_send.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_share.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_slideshow.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_tools.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/nav_header_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/tab_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/menu/main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/menu/menu_nav_with_search.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/menu/menu_navigation_drawer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/xml/settings_pref.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Untitled" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_4_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_andkulikov_transitionseverywhere_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_andkulikov_transitionseverywhere_2_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_3_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jjoe64_graphview_4_2_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jjoe64_graphview_4_2_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__pl_droidsonroids_gif_android_gif_drawable_1_2_23_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__pl_droidsonroids_gif_android_gif_drawable_1_2_23_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____Application_libs_flanagan_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/Application/HRVDetector.Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Application/HRVDetector.Application.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/AutoFitTextureView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/AutoFitTextureView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/external_file_lib_dex_archives/debug/1_jetified-flanagan.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_navigation_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$CompareSizesByArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$CompareSizesByArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$ConfirmationDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$ConfirmationDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$ConfirmationDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$ConfirmationDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$ConfirmationDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$ConfirmationDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$ErrorDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$ErrorDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$ErrorDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$ErrorDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$GetHeartRate.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$GetHeartRate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$ImageSaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment$ImageSaver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/classes/com/example/android/camera2basic/CameraFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$4.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$5.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$6.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$6.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$7.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$7.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$CompareSizesByArea.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$CompareSizesByArea.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$ConfirmationDialog$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$ConfirmationDialog$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$ConfirmationDialog$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$ConfirmationDialog$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$ConfirmationDialog.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$ConfirmationDialog.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$ErrorDialog$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$ErrorDialog$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$ErrorDialog.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$ErrorDialog.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$GetHeartRate.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$GetHeartRate.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$ImageSaver.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment$ImageSaver.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/project_dex_archive/debug/out/com/example/android/camera2basic/CameraFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/layout_fragment_camera.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/layout_fragment_camera.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/outputs/apk/debug/Application-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/outputs/apk/debug/Application-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/libs/flanagan.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/CameraFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/CameraFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/activity_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/activity_results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/base-strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/base-strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_camera.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_camera.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/template-styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/template-styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/tests/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/tests/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -762,28 +533,36 @@
       <screen x="0" y="25" width="1440" height="813" />
     </state>
     <state x="427" y="298" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.25.1440.813@0.25.1440.813" timestamp="1622752526052" />
-    <state width="1228" height="262" key="GridCell.Tab.0.bottom" timestamp="1622753823934">
-      <screen x="0" y="25" width="1280" height="713" />
+    <state width="1228" height="144" key="GridCell.Tab.0.bottom" timestamp="1623248227049">
+      <screen x="0" y="25" width="1280" height="716" />
     </state>
     <state width="1228" height="262" key="GridCell.Tab.0.bottom/0.25.1280.713@0.25.1280.713" timestamp="1622753823934" />
+    <state width="1228" height="144" key="GridCell.Tab.0.bottom/0.25.1280.716@0.25.1280.716" timestamp="1623248227049" />
+    <state width="1228" height="228" key="GridCell.Tab.0.bottom/0.25.1280.719@0.25.1280.719" timestamp="1623212577523" />
     <state width="1388" height="220" key="GridCell.Tab.0.bottom/0.25.1440.813@0.25.1440.813" timestamp="1622751486617" />
     <state width="1395" height="203" key="GridCell.Tab.0.bottom/0.25.1440.815@0.25.1440.815" timestamp="1621266931689" />
-    <state width="1228" height="262" key="GridCell.Tab.0.center" timestamp="1622753823933">
-      <screen x="0" y="25" width="1280" height="713" />
+    <state width="1228" height="144" key="GridCell.Tab.0.center" timestamp="1623248227049">
+      <screen x="0" y="25" width="1280" height="716" />
     </state>
     <state width="1228" height="262" key="GridCell.Tab.0.center/0.25.1280.713@0.25.1280.713" timestamp="1622753823933" />
+    <state width="1228" height="144" key="GridCell.Tab.0.center/0.25.1280.716@0.25.1280.716" timestamp="1623248227049" />
+    <state width="1228" height="228" key="GridCell.Tab.0.center/0.25.1280.719@0.25.1280.719" timestamp="1623212577522" />
     <state width="1388" height="220" key="GridCell.Tab.0.center/0.25.1440.813@0.25.1440.813" timestamp="1622751486616" />
     <state width="1395" height="203" key="GridCell.Tab.0.center/0.25.1440.815@0.25.1440.815" timestamp="1621266931688" />
-    <state width="1228" height="262" key="GridCell.Tab.0.left" timestamp="1622753823932">
-      <screen x="0" y="25" width="1280" height="713" />
+    <state width="1228" height="144" key="GridCell.Tab.0.left" timestamp="1623248227048">
+      <screen x="0" y="25" width="1280" height="716" />
     </state>
     <state width="1228" height="262" key="GridCell.Tab.0.left/0.25.1280.713@0.25.1280.713" timestamp="1622753823932" />
+    <state width="1228" height="144" key="GridCell.Tab.0.left/0.25.1280.716@0.25.1280.716" timestamp="1623248227048" />
+    <state width="1228" height="228" key="GridCell.Tab.0.left/0.25.1280.719@0.25.1280.719" timestamp="1623212577521" />
     <state width="1388" height="220" key="GridCell.Tab.0.left/0.25.1440.813@0.25.1440.813" timestamp="1622751486616" />
     <state width="1395" height="203" key="GridCell.Tab.0.left/0.25.1440.815@0.25.1440.815" timestamp="1621266931685" />
-    <state width="1228" height="262" key="GridCell.Tab.0.right" timestamp="1622753823934">
-      <screen x="0" y="25" width="1280" height="713" />
+    <state width="1228" height="144" key="GridCell.Tab.0.right" timestamp="1623248227049">
+      <screen x="0" y="25" width="1280" height="716" />
     </state>
     <state width="1228" height="262" key="GridCell.Tab.0.right/0.25.1280.713@0.25.1280.713" timestamp="1622753823934" />
+    <state width="1228" height="144" key="GridCell.Tab.0.right/0.25.1280.716@0.25.1280.716" timestamp="1623248227049" />
+    <state width="1228" height="228" key="GridCell.Tab.0.right/0.25.1280.719@0.25.1280.719" timestamp="1623212577523" />
     <state width="1388" height="220" key="GridCell.Tab.0.right/0.25.1440.813@0.25.1440.813" timestamp="1622751486617" />
     <state width="1395" height="203" key="GridCell.Tab.0.right/0.25.1440.815@0.25.1440.815" timestamp="1621266931688" />
     <state x="104" y="25" key="SettingsEditor" timestamp="1622736410374">

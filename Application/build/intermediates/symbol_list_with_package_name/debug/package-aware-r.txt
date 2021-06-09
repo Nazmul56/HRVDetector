@@ -2368,7 +2368,6 @@ id grpTop
 id guideline
 id header_title
 id heart
-id heartAnim
 id heartRateButton
 id hideable
 id historyButton
@@ -2663,6 +2662,7 @@ id tv_bg_test_level
 id tv_bg_test_time
 id tv_bg_test_unit
 id tv_bg_test_when_measured
+id tv_bpm
 id unchecked
 id uniform
 id unlabeled

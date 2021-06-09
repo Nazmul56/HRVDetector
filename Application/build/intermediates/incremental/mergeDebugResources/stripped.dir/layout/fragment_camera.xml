@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.android.camera2basic.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <RelativeLayout
+        style="@style/MaterialTheme"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_bpm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView5"
+            android:text="69.0"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textColor="@color/red"
+            android:textSize="50sp"/>
+<!--        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/heartAnim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heart_anim" />-->
+
+        <!--<ProgressBar-->
+            <!--android:id="@+id/progressBar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:progressTint="#ff6969"-->
+            <!--android:progressBackgroundTint="#ff6969"-->
+            <!--android:backgroundTint="#ff6969"-->
+            <!--android:indeterminate="false" />-->
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Processing"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
