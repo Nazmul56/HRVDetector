@@ -61,7 +61,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.UiThread;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
@@ -454,7 +453,6 @@ public class CameraFragment extends Fragment {
                     continue;
                 }
 
-
                 // For still image captures, we use the largest available size.
                 Size largest = Collections.max(
                         Arrays.asList(map.getOutputSizes(ImageFormat.JPEG)),
@@ -786,7 +784,8 @@ public class CameraFragment extends Fragment {
             Log.d("Red", Double.toString(redAverage));
 
             tempValue.add(colorAverage);
-            if(tempValue.size() < 30)
+
+            if(tempValue.size() <= 30 * MainActivity.RECORDING_TIME_FOR_EACH_SEC)
                 return;
             else {
                 ArrayList<Double> hueValues = new ArrayList<Double>();
@@ -802,10 +801,10 @@ public class CameraFragment extends Fragment {
                     hueValues.add((double) hsv[0]);
                 }
 
-                hueValues = SignalProcessing.signalProcess(hueValues);
+                hueValues = SignalProcessing.signalProcessForEachSec(hueValues);
 
-                HeartData heartData = new HeartData(hueValues);
-                String bpStr = String.format("%.1f", heartData.getBPM());
+               // HeartData heartData = new HeartData(hueValues);
+                String bpStr = String.format("%.1f", SignalProcessing.getBPMforEachSec(hueValues));
                 Log.d("HeartRate: ", bpStr);
                 new Handler(Looper.getMainLooper()).post(new Runnable() {
                     @Override

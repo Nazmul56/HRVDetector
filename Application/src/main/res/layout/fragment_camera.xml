@@ -12,10 +12,9 @@
 
     <RelativeLayout
         style="@style/MaterialTheme"
-        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="50dp"
+        android:background="@color/white"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -55,8 +54,8 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
-
     </RelativeLayout>
+
 
 
 </RelativeLayout>

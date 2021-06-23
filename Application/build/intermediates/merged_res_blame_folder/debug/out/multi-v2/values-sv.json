@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml",
+            "outputFile": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml",
             "map": [
                 {
                     "source": "/Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/931f5f78a28e4cd54a304e9052a1af90/core-1.3.2/res/values-sv/values-sv.xml",

@@ -17,7 +17,7 @@ import uk.me.berndporr.iirj.Butterworth;
 
 public class SignalProcessing {
     public static double frameRate = 0;
-
+    public static double frameRateForEachSec = 0;
     public static ArrayList<Double> movingAverage(ArrayList<Double> values) {
         ArrayList<Double> newValues = new ArrayList<Double>();
         int size = values.size();
@@ -57,6 +57,18 @@ public class SignalProcessing {
         return values;
     }
 
+    public static ArrayList<Double> signalProcessForEachSec(ArrayList<Double> values) {
+        frameRateForEachSec = values.size() / MainActivity.RECORDING_TIME_FOR_EACH_SEC;
+
+        values = butterworthFilterForEachSec(values);
+        values = splineInterpolateForEachSec(values);
+
+//        values = slidingWindowTransform(values, frameRate);
+//        values = movingAverage(values);
+
+        return values;
+    }
+
     public static double getBPM(ArrayList<Double> values) {
         ArrayList<Double> fftValues = fftTransform(values);
 
@@ -83,6 +95,32 @@ public class SignalProcessing {
 
         return bpm;
     }
+    public static double getBPMforEachSec(ArrayList<Double> values) {
+        ArrayList<Double> fftValues = fftTransform(values);
+
+//        int initialIndex = (int) ((40.0/60.0) * fftValues.size() / (frameRate * 2));
+//        int finalIndex = (int) ((230.0/60.0) * fftValues.size() / (frameRate * 2));
+//        Log.d("AAA", Double.toString(initialIndex) + " " + Double.toString(finalIndex));
+//        Map<Double, Double> fftPeaks = getPeaks(new ArrayList<Double>(fftValues.subList(initialIndex, finalIndex)), false);
+
+        Map<Double, Double> fftPeaks = getPeaks(new ArrayList<Double>(fftValues.subList(0, fftValues.size()/2)), false);
+
+        double maxValue = -1;
+        double maxIndex = 0;
+
+        for(Map.Entry<Double, Double> peak : fftPeaks.entrySet()) {
+            if(peak.getValue() >= maxValue) {
+                maxValue = peak.getValue();
+                maxIndex = peak.getKey();
+            }
+        }
+
+        //double frameRate = 30;//values.size() / 1.0;
+ //       double bpm = ((maxIndex * frameRate) / 10) / fftValues.size() * (230 - 40) + 40;
+        double bpm = (maxIndex) * frameRateForEachSec * 60 / fftValues.size();
+//        Log.d("AAA", Double.toString(frameRate) + " " + Double.toString((double)maxIndex / fftValues.size()) + " " + Double.toString(maxIndex) + " " + Double.toString(bpm));
+        return bpm;
+    }
 
     public static ArrayList<Double> butterworthFilter(ArrayList<Double> values) {
         ArrayList<Double> newValues = new ArrayList<Double>();
@@ -95,6 +133,28 @@ public class SignalProcessing {
         double bpmHigh = 230.0 / 60.0;
 
         butterworth.bandPass(2, frameRate * 2, (bpmLow + bpmHigh) / 2, (bpmHigh - bpmLow) / 2);
+
+        for(Double value : values) {
+            double newValue = butterworth.filter(value);
+            newValues.add(newValue);
+        }
+
+        newValues = new ArrayList<Double>(newValues.subList((int)Math.ceil(initialValue), newValues.size()));
+
+        return newValues;
+    }
+
+    public static ArrayList<Double> butterworthFilterForEachSec(ArrayList<Double> values) {
+        ArrayList<Double> newValues = new ArrayList<Double>();
+        Butterworth butterworth = new Butterworth();
+
+        double initialValue = frameRateForEachSec * MainActivity.CUTOFF_TIME_FOR_EACH_SEC;
+        Log.d("DDD", Double.toString(frameRateForEachSec) + " " + Double.toString(initialValue) + " " + Integer.toString(values.size()));
+
+        double bpmLow = 40.0 / 60.0;
+        double bpmHigh = 230.0 / 60.0;
+
+        butterworth.bandPass(2, frameRateForEachSec * 2, (bpmLow + bpmHigh) / 2, (bpmHigh - bpmLow) / 2);
 
         for(Double value : values) {
             double newValue = butterworth.filter(value);
@@ -235,6 +295,26 @@ public class SignalProcessing {
 
         for(double d : x) {
              res.add(f.value(d));
+        }
+        return res;
+    }
+
+    public static ArrayList<Double> splineInterpolateForEachSec(ArrayList<Double> values) {
+        int size = values.size();
+        double[] x = new double[size];
+        double[] y = new double[size];
+
+        for (int i=0; i < size; ++i) {
+            x[i] = (MainActivity.RECORDING_TIME_FOR_EACH_SEC - MainActivity.CUTOFF_TIME_FOR_EACH_SEC) * i / size;
+            y[i] = values.get(i);
+        }
+
+        SplineInterpolator si = new SplineInterpolator();
+        PolynomialSplineFunction f = si.interpolate(x, y);
+        ArrayList<Double> res = new ArrayList<Double>();
+
+        for(double d : x) {
+            res.add(f.value(d));
         }
         return res;
     }

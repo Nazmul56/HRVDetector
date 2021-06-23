@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "outputFile": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/values-v11/template-styles.xml",
+                    "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/res/values-v11/template-styles.xml",
                     "from": {
                         "startLines": "19",
                         "startColumns": "4",

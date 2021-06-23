@@ -16,12 +16,12 @@
         "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-mdpi/ic_account_circle_black_24dp.png"
     },
     {
-        "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable-xxhdpi_ic_extension_black_24dp.png.flat",
-        "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-xxhdpi/ic_extension_black_24dp.png"
-    },
-    {
         "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable-xhdpi_ic_mode_edit_white_24dp.png.flat",
         "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-xhdpi/ic_mode_edit_white_24dp.png"
+    },
+    {
+        "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable-xxhdpi_ic_extension_black_24dp.png.flat",
+        "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-xxhdpi/ic_extension_black_24dp.png"
     },
     {
         "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable-mdpi_ic_alarm_black_24dp.png.flat",
@@ -136,12 +136,12 @@
         "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-xxxhdpi/ic_bookmark_white_24dp.png"
     },
     {
-        "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable-xhdpi_ic_restaurant_white_48dp.png.flat",
-        "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-xhdpi/ic_restaurant_white_48dp.png"
-    },
-    {
         "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable-mdpi_ic_info_outline_black_24dp.png.flat",
         "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-mdpi/ic_info_outline_black_24dp.png"
+    },
+    {
+        "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable-xhdpi_ic_restaurant_white_48dp.png.flat",
+        "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-xhdpi/ic_restaurant_white_48dp.png"
     },
     {
         "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/layout_fragment_slideshow.xml.flat",
@@ -150,6 +150,10 @@
     {
         "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable-xhdpi_progress_circular_background.png.flat",
         "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-xhdpi/progress_circular_background.png"
+    },
+    {
+        "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable_transparent_hole.xml.flat",
+        "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable/transparent_hole.xml"
     },
     {
         "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/layout_dropdown_menu_popup_item.xml.flat",
@@ -204,12 +208,12 @@
         "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-hdpi/ic_error_white_24dp.png"
     },
     {
-        "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_add_black_24dp.png.flat",
-        "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-xxxhdpi/ic_add_black_24dp.png"
-    },
-    {
         "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable-hdpi_ic_account_circle_black_24dp.png.flat",
         "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-hdpi/ic_account_circle_black_24dp.png"
+    },
+    {
+        "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_add_black_24dp.png.flat",
+        "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-xxxhdpi/ic_add_black_24dp.png"
     },
     {
         "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable_ic_add_white.xml.flat",
@@ -240,12 +244,12 @@
         "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable/online_uns.xml"
     },
     {
-        "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable-xxhdpi_account.png.flat",
-        "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-xxhdpi/account.png"
-    },
-    {
         "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable_circle_hyper.xml.flat",
         "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable/circle_hyper.xml"
+    },
+    {
+        "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable-xxhdpi_account.png.flat",
+        "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-xxhdpi/account.png"
     },
     {
         "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_extension_black_24dp.png.flat",
@@ -276,12 +280,12 @@
         "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-xhdpi/ic_language_black_24dp.png"
     },
     {
-        "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable_ic_invite_friend_24.xml.flat",
-        "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable/ic_invite_friend_24.xml"
-    },
-    {
         "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable-xhdpi_ic_more_vert_black_24dp.png.flat",
         "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable-xhdpi/ic_more_vert_black_24dp.png"
+    },
+    {
+        "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable_ic_invite_friend_24.xml.flat",
+        "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/src/main/res/drawable/ic_invite_friend_24.xml"
     },
     {
         "merged": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/MyTestProject/HeartRateMonitor/HRVDetector/Application/build/intermediates/res/merged/release/drawable-hdpi_ic_calculator_white_24dp.png.flat",

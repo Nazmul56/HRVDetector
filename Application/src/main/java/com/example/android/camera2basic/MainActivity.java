@@ -8,8 +8,12 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
+    /** Total measure time*/
     public static final double RECORDING_TIME = 15.0;
     public static final double CUTOFF_TIME = 5.0;
+    /** For realtime reading*/
+    public static final double RECORDING_TIME_FOR_EACH_SEC = 3.0;
+    public static final double CUTOFF_TIME_FOR_EACH_SEC = 2.0;
     private static MyDBHandler dbHandler;
 
     @Override
