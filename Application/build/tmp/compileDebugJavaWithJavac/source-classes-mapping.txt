@@ -50,7 +50,6 @@ com/example/android/camera2basic/CameraFragment.java
  com.example.android.camera2basic.CameraFragment$ErrorDialog
  com.example.android.camera2basic.CameraFragment$ErrorDialog$1
  com.example.android.camera2basic.CameraFragment$GetHeartRate
- com.example.android.camera2basic.CameraFragment$GetHeartRate$1
  com.example.android.camera2basic.CameraFragment$ImageSaver
 com/example/android/camera2basic/AutoFitTextureView.java
  com.example.android.camera2basic.AutoFitTextureView

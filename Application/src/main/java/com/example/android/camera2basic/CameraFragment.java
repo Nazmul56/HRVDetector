@@ -780,41 +780,43 @@ public class CameraFragment extends Fragment {
             int greenAverage = (int) (green / (width * height));
             int blueAverage = (int) (blue / (width * height));
             int colorAverage = Color.rgb(redAverage, greenAverage, blueAverage);
+            Log.d(TAG, "ColourAverage " +colorAverage);
             colorValues.add(colorAverage);
+            Log.d(TAG, "Update Color average to colorvalues arrayList current size is: "+ colorValues.size());
             Log.d("Red", Double.toString(redAverage));
 
-            tempValue.add(colorAverage);
-
-            if(tempValue.size() <= 30 * MainActivity.RECORDING_TIME_FOR_EACH_SEC)
-                return;
-            else {
-                ArrayList<Double> hueValues = new ArrayList<Double>();
-
-                ArrayList<Integer> tempResult = new ArrayList<>();
-                for (int i : tempValue) {
-                    tempResult.add(i);
-                }
-
-                for (int i : tempResult) {
-                    float[] hsv = new float[3];
-                    Color.RGBToHSV(Color.red(i), Color.green(i), Color.blue(i), hsv);
-                    hueValues.add((double) hsv[0]);
-                }
-
-                hueValues = SignalProcessing.signalProcessForEachSec(hueValues);
-
-               // HeartData heartData = new HeartData(hueValues);
-                String bpStr = String.format("%.1f", SignalProcessing.getBPMforEachSec(hueValues));
-                Log.d("HeartRate: ", bpStr);
-                new Handler(Looper.getMainLooper()).post(new Runnable() {
-                    @Override
-                    public void run() {
-                        bpmGlobal.setText(bpStr);
-                    }
-                });
-
-                tempValue.clear();
-            }
+            //For each 3 sec value
+//            tempValue.add(colorAverage);
+//            if(tempValue.size() <= 30 * MainActivity.RECORDING_TIME_FOR_EACH_SEC)
+//                return;
+//            else {
+//                ArrayList<Double> hueValues = new ArrayList<Double>();
+//
+//                ArrayList<Integer> tempResult = new ArrayList<>();
+//                for (int i : tempValue) {
+//                    tempResult.add(i);
+//                }
+//
+//                for (int i : tempResult) {
+//                    float[] hsv = new float[3];
+//                    Color.RGBToHSV(Color.red(i), Color.green(i), Color.blue(i), hsv);
+//                    hueValues.add((double) hsv[0]);
+//                }
+//
+//                hueValues = SignalProcessing.signalProcessForEachSec(hueValues);
+//
+//               // HeartData heartData = new HeartData(hueValues);
+//                String bpStr = String.format("%.1f", SignalProcessing.getBPMforEachSec(hueValues));
+//                Log.d("HeartRate: ", bpStr);
+//                new Handler(Looper.getMainLooper()).post(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        bpmGlobal.setText(bpStr);
+//                    }
+//                });
+//
+//                tempValue.clear();
+//            }
 //            Log.e("AAA", Byte.toString(resultRGB[0]));
 //            final ByteBuffer buffer = ByteBuffer.wrap(resultRGB).order(ByteOrder.LITTLE_ENDIAN);
 //            final int[] ret = new int[resultRGB.length / 4];
