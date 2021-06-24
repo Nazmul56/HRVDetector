@@ -28,7 +28,7 @@ public class HeartData {
 
     private void initBPM() {
         bpm = SignalProcessing.getBPM(values);
-        bpm = (peaks.size() * 60.0 / (MainActivity.RECORDING_TIME - MainActivity.CUTOFF_TIME));
+       // bpm = (peaks.size() * 60.0 / (MainActivity.RECORDING_TIME - MainActivity.CUTOFF_TIME));
     }
 
     private void initRR() {
