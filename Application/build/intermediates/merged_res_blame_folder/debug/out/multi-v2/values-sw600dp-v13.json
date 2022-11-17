@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
+                {
+                    "source": "/Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/res/values-sw600dp/template-styles.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "621",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "861"
+                    },
+                    "to": {
+                        "startLines": "28",
+                        "startColumns": "4",
+                        "startOffsets": "1659",
+                        "endLines": "32",
+                        "endColumns": "12",
+                        "endOffsets": "1899"
+                    }
+                },
                 {
                     "source": "/Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/ebf83f2238f72fa73f8397065025a388/material-1.3.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
@@ -23,26 +42,7 @@
                     }
                 },
                 {
-                    "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/res/values-sw600dp/template-styles.xml",
-                    "from": {
-                        "startLines": "18",
-                        "startColumns": "4",
-                        "startOffsets": "621",
-                        "endLines": "22",
-                        "endColumns": "12",
-                        "endOffsets": "861"
-                    },
-                    "to": {
-                        "startLines": "28",
-                        "startColumns": "4",
-                        "startOffsets": "1659",
-                        "endLines": "32",
-                        "endColumns": "12",
-                        "endOffsets": "1899"
-                    }
-                },
-                {
-                    "source": "/Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/res/values-sw600dp/template-dimens.xml",
+                    "source": "/Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/res/values-sw600dp/template-dimens.xml",
                     "from": {
                         "startLines": "20,21",
                         "startColumns": "4,4",

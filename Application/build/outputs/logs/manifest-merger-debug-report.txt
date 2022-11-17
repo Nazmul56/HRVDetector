@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:2:1-53:12
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:2:1-53:12
 MERGED from [androidx.databinding:databinding-adapters:4.2.1] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/e9664de40f5ee4e1c8b017bb49b3da6b/databinding-adapters-4.2.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-runtime:4.2.1] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/e2ae906be3782236cbc898614642725c/databinding-runtime-4.2.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/fd7e83616f596bf2eab5cb4f655cf620/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
@@ -71,35 +71,35 @@ MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.23] /Users/nazmulhaqu
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/4f69bf7de98cf1ab592542cf68a5e4e5/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/aa146a21bc95147589c132a8c0bfa79a/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/dff7cce61e5a5a08007ad21290c89244/jetified-relinker-1.4.1/AndroidManifest.xml:2:1-7:12
-INJECTED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:2:1-53:12
 	package
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:3:5-47
-		INJECTED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CAMERA
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:5:5-65
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:5:5-65
 	android:name
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:5:22-62
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:5:22-62
 uses-permission#android.permission.FLASHLIGHT
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:6:5-69
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:6:5-69
 	android:name
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:6:22-66
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:6:22-66
 uses-feature#android.hardware.camera
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:8:5-60
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:8:5-60
 	android:name
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:8:19-57
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:8:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:9:5-70
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:9:5-70
 	android:name
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:9:19-67
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:9:19-67
 uses-feature#android.hardware.camera.flash
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:10:5-66
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:10:5-66
 	android:name
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:10:19-63
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:10:19-63
 application
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:13:5-51:19
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:13:5-51:19
 MERGED from [com.google.android.material:material:1.3.0] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/ebf83f2238f72fa73f8397065025a388/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/ebf83f2238f72fa73f8397065025a388/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/f71cb054c742c41f9642ff835ab9e356/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -121,73 +121,73 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nazm
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/931f5f78a28e4cd54a304e9052a1af90/core-1.3.2/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:16:9-41
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:16:9-41
 	android:icon
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:15:9-45
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:15:9-45
 	android:allowBackup
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:17:9-45
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:17:9-45
 activity#com.example.android.camera2basic.MainActivity
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:18:9-26:20
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:18:9-26:20
 	android:label
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:20:13-45
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:20:13-45
 	android:name
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:19:13-41
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:19:13-41
 activity#com.example.android.camera2basic.CameraActivity
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:27:9-52
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:27:9-52
 	android:name
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:27:19-49
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:27:19-49
 activity#com.example.android.camera2basic.ResultsActivity
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:28:9-53
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:28:9-53
 	android:name
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:28:19-50
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:28:19-50
 activity#com.example.android.camera2basic.InstructionActivity
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:29:9-57
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:29:9-57
 	android:name
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:29:19-54
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:29:19-54
 activity#com.example.android.camera2basic.HistoryActivity
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:30:9-53
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:30:9-53
 	android:name
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:30:19-50
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:30:19-50
 activity#com.example.android.camera2basic.HistoryResultActivity
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:31:9-68
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:31:9-68
 	android:name
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:31:19-56
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:31:19-56
 activity#com.example.android.ui.activity.NavigationActivity
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:33:9-42:20
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:33:9-42:20
 	android:label
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:35:13-45
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:35:13-45
 	android:theme
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:36:13-56
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:36:13-56
 	android:name
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:34:13-78
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:34:13-78
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:37:13-41:29
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:37:13-41:29
 action#android.intent.action.MAIN
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:38:17-69
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:38:25-66
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:40:17-77
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:40:27-74
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:40:27-74
 activity#com.example.android.ui.activity.SettingsActivity
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:44:9-48:15
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:44:9-48:15
 	android:label
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:46:13-60
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:46:13-60
 	android:theme
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:47:13-67
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:47:13-67
 	android:name
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:45:13-76
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:45:13-76
 activity#com.example.android.ui.activity.AboutActivity
-ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:50:9-82
+ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:50:9-82
 	android:name
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:50:19-79
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml:50:19-79
 uses-sdk
-INJECTED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
-INJECTED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:databinding-adapters:4.2.1] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/e9664de40f5ee4e1c8b017bb49b3da6b/databinding-adapters-4.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:databinding-adapters:4.2.1] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/e9664de40f5ee4e1c8b017bb49b3da6b/databinding-adapters-4.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:databinding-runtime:4.2.1] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/e2ae906be3782236cbc898614642725c/databinding-runtime-4.2.1/AndroidManifest.xml:20:5-44
@@ -326,16 +326,16 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/nazmulhaq
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/aa146a21bc95147589c132a8c0bfa79a/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/dff7cce61e5a5a08007ad21290c89244/jetified-relinker-1.4.1/AndroidManifest.xml:5:5-43
 MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/dff7cce61e5a5a08007ad21290c89244/jetified-relinker-1.4.1/AndroidManifest.xml:5:5-43
-INJECTED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
-INJECTED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
-		ADDED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/nazmulhaque/All_Files/Software_Development/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/nazmulhaque/All_Files/Projects/AndroidProjects/Office Work Projects/HeartRateMonitor/HRVDetector/Application/src/main/AndroidManifest.xml
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nazmulhaque/.gradle/caches/transforms-2/files-2.1/ce3697919701d9050a6f363e4671cc0c/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
 	android:authorities
